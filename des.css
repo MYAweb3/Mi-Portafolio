@@ -1,0 +1,98 @@
+/* Alinear el texto y centrar el contenido */
+#inicio {
+   text-align: center;
+ }
+ 
+ /* Posicionar la imagen y los enlaces sociales */
+ .header-container {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 10px;
+   background-color: #BCE5F5;
+ }
+
+ .social-links a {
+   margin-left: 15px;
+   justify-content: flex-end;
+ }
+ 
+
+footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+ }
+ 
+ /* Reset de estilos para el body */
+ body {
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+    padding: 50px;
+    background-color: #BCE5F5;
+    }
+
+    #inicio img {
+    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    }
+    img {
+      display: block;
+      margin: 50 auto;
+    }
+    
+
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+    padding: 50px;
+    background-color:#FFD1DC;
+    }
+
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+    padding: 50px;
+    background-color: #FFFFC2;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    padding: 50px;
+    background-color: #DCE0EA;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    }
